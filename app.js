@@ -31,6 +31,7 @@ const game = () => {
 
         //Update Images
         playerHand.src = `./assets/${this.textContent}.png`;
+        computerHand.src = `./assets/${computerChoice}.png`;
       });
     });
   };
@@ -54,7 +55,7 @@ const game = () => {
         playerScore++;
       } else {
         winner.textContent = "Computer Wins";
-        copmuterScore++;
+        computerScore++;
       }
     } else if (playerChoice === "paper") {
       if (computerChoice === "rock") {
