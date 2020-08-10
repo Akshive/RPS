@@ -51,7 +51,7 @@ const game = () => {
       winner.textContent = "Tie!";
     } else if (playerChoice === "rock") {
       if (computerChoice === "scissors") {
-        winner.textContent = "Player Wins";
+        winner.textContent = "Player Wins!";
         playerScore++;
       } else {
         winner.textContent = "Computer Wins!";
@@ -62,15 +62,15 @@ const game = () => {
         winner.textContent = "Player Wins!";
         playerScore++;
       } else {
-        winner.textContent = "Computer Wins";
+        winner.textContent = "Computer Wins!";
         computerScore++;
       }
     } else {
       if (computerChoice === "paper") {
-        winner.textContent = "Player Wins";
+        winner.textContent = "Player Wins!";
         playerScore++;
       } else {
-        winner.textContent = "Computer Wins";
+        winner.textContent = "Computer Wins!";
         computerScore++;
       }
     }

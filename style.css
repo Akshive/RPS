@@ -43,7 +43,7 @@ section {
 }
 
 .hands {
-  padding-bottom: 20px;
+  padding: 60px;
 }
 
 .intro button,
@@ -57,6 +57,12 @@ section {
   background: rgb(9, 5, 73);
   border-radius: 3px;
   cursor: pointer;
+}
+
+.player-hand,
+.computer-hand {
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .match {
